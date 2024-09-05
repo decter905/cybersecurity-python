@@ -1,0 +1,83 @@
+{
+    'unique_ips':
+        [
+            '192.168.0.127',
+            '127.0.0.1',
+            '192.168.0.217',
+            '192.168.0.105',
+            '192.168.0.135',
+            '192.168.0.126',
+            '::1',
+            '192.168.0.129'
+        ],
+    'ip_device_mapping':
+        [
+            array(
+                [
+                    'Agent'
+                ],
+                dtype=object
+            ),
+            array(
+                [
+                    'Qmanager/2.20.1.1103 (Android 9, samsung SM-N950F)',
+                    'Qmanager/2.20.3.0122 (Android 9, samsung SM-N950F)'
+                    ],
+                dtype=object,
+            ),
+            array(
+                    [
+                        'Qsync/5.1.4 (Windows 10, JOHNS-PC)',
+                        'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+                        'Qsync/5.1.5 (Windows 10, JOHNS-PC)'
+                    ],
+                    dtype=object
+            ),
+            array(
+                    [
+                        'Qsync/5.1.1 (Windows 10, JOHNS-PC)',
+                        'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+                        'Qsync/5.1.2 (Windows 10, JOHNS-PC)',
+                        'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+                        'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                        'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+                        'Qsync/5.1.4 (Windows 10, JOHNS-PC)'
+                        ],
+                        dtype=object
+            ),
+            array(
+                    [
+                        'Qfile Pro/4.2.1.0611 (Android 9, samsung SM-N950F)'
+                    ],
+                    dtype=object
+            ),
+            array(
+                [
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+                ],
+                dtype=object
+            ),
+            array(
+                [
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+                    nan,
+                    'Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
+                ],
+                dtype=object
+            ),
+            array(
+                [
+                    'Agent'
+                ],
+                dtype=object
+            )
+        ]
+}
