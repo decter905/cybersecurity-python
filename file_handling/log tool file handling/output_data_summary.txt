@@ -1,0 +1,64 @@
+Data Summary:
+None
+                       event_id event_type  ... event_client_app event_client_agent
+count                     12965      11858  ...            11855              11855
+unique                    12965          5  ...                6                 22
+top     Done. Return value is 0          0  ...              ---                ---
+freq                          1       8274  ...             8057              11715
+
+[4 rows x 17 columns]
+
+Unique App Names:
+['System Logs' 'myQNAPcloud' 'Antivirus' 'Security' 'App Center' 'Users'
+ 'Power' 'Network & Virtual Switch' 'Qsync Central' '---'
+ 'Firmware Update' 'Shared Folders' 'NTP Server' 'Qboost'
+ 'Storage & Snapshots' 'Malware Remover' 'Hybrid Backup Sync'
+ 'Notification Center' 'Hardware' 'Service Discovery' 'Win/Mac/NFS'
+ 'Telnet / SSH' 'SQL Server' 'Web Server' 'Hardware Status'
+ 'iSCSI & Fibre Channel' 'General Settings' 'Multimedia Console'
+ 'Security Counselor' nan 'MariaDB 5' 'Win/Mac/NFS/WebDAV']
+
+Event Count by App Name:
+event_app_name
+---                          681
+Antivirus                    838
+App Center                   866
+Firmware Update               99
+General Settings               1
+Hardware                       6
+Hardware Status                1
+Hybrid Backup Sync            14
+Malware Remover             1434
+MariaDB 5                      1
+Multimedia Console           398
+NTP Server                     1
+Network & Virtual Switch    2307
+Notification Center            2
+Power                        894
+Qboost                         1
+Qsync Central                  4
+SQL Server                     4
+Security                       8
+Security Counselor           135
+Service Discovery              1
+Shared Folders                19
+Storage & Snapshots           48
+System Logs                    2
+Telnet / SSH                   1
+Users                       2882
+Web Server                     4
+Win/Mac/NFS                    1
+Win/Mac/NFS/WebDAV             2
+iSCSI & Fibre Channel          3
+myQNAPcloud                 1199
+Name: event_id, dtype: int64
+
+App Center Events:
+  event_id event_type  ... event_client_app event_client_agent
+5        6          0  ...              ---                ---
+6        7          0  ...              ---                ---
+7        8          0  ...              ---                ---
+8        9          0  ...              ---                ---
+9       10          0  ...              ---                ---
+
+[5 rows x 17 columns]
