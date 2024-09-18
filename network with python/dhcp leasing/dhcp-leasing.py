@@ -66,9 +66,9 @@ if dhcp_offers:
 
     ans = sendp(dhcp_request_packet, iface=iface, verbose=True)
 
-    dhcp_ack_filter = "udp and port 67 and src port 67"
+    dhcp_ack_filter = "udp port 67 and src port 68"
     print('Sniffing for ACKs...')
-    dhcp_acks = sniff(iface=iface, count=1, timeout=10)
+    dhcp_acks = sniff(iface=iface, filter=dhcp_ack_filter, count=1, timeout=10)
 
     if dhcp_acks:
         print("Received DHCP ACK:")
@@ -79,3 +79,8 @@ if dhcp_offers:
         print("No DHCP ACK received.")
 else:
     print("No DHCP offer received.")
+
+
+
+
+
