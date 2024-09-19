@@ -12,7 +12,6 @@ client_mac = "F2:77:C3:1D:04:03"
 
 dhcp_server_ip = "10.16.0.1"
 dhcp_server_mac = "d8:58:d7:01:10:cf"
-iface = "Ethernet 4"
 
 
 def mac_to_bytes(mac_addr: str) -> bytes:
