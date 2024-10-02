@@ -5,7 +5,7 @@ from scapy.layers.dhcp import BOOTP, DHCP
 from scapy.layers.inet import IP, UDP
 from scapy.layers.l2 import Ether, ARP
 
-conf.iface = "Ethernet 5"
+conf.iface = "WLAN"
 conf.checkIPaddr = False
 
 client_mac = "F2:77:C3:1D:04:03"
